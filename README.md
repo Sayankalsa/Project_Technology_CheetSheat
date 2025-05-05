@@ -43,3 +43,15 @@ AI chatbot applications and machine learning algorithms to help predict legaldoc
   3. User-friendly interface designed specifically for new lawyers.
 ## System Architecture
 The system architecture consists of several interconnected components designed to facilitate efficient processing and analysis of legal documents. The architecture incorporates data collection, preprocessing, machine learning model training, and user interface components to provide a comprehensive solution for legal document analysis.
+## Working Methodology
+The project involves developing an Artificial Intelligence Chatbot application for experts on new laws to help solve legal problems. The methodology includes:
+   1. Collecting datasets from various sources
+   2. Separating data into working files and test data
+   3. Preprocessing the dataset using prefix tools
+   4. Training the model using advanced ML algorithms (BERT)
+   5. Using the trained model to evaluate and predict legal document types.
+ BERT (Bidirectional Encoder Representation of Transformers) is a deep learning model where each result is placed between every input point and connected to every other input point. Weights are calculated based on possible measurements from connections. After training with the machine learning algorithm, the system can effectively evaluate datasets and determine the correct data type when all answers are provided to the prediction process.
+## Module Description
+### Dataset Collection
+Data collection is a critical component of the project, as increasing the dataset size generally improves accuracy. The collected data consists of written legal documents from various sources. Machine learning has become the preferred method for solving many challenging problems, and in prediction work, it offers superior performance.
+ The data collection process involves three steps aligned with the types of machine learning tasks:
