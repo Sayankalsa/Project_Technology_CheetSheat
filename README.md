@@ -55,3 +55,28 @@ The project involves developing an Artificial Intelligence Chatbot application f
 ### Dataset Collection
 Data collection is a critical component of the project, as increasing the dataset size generally improves accuracy. The collected data consists of written legal documents from various sources. Machine learning has become the preferred method for solving many challenging problems, and in prediction work, it offers superior performance.
  The data collection process involves three steps aligned with the types of machine learning tasks:
+ - **Classification** - For binary or multi-class categorization of legal documents.
+ - **Regression** - For generation numerical values based on multiple factors.
+ - **Clustering** - For recommending or grouping similar legat documents based on characteristics.
+### Dataset Preprocessing
+Data preprocessing converts raw data into a format compatible with ML models, making it more efficient for data mining and machine learning applications. This crucial initial step ensures accurate results in the subsequent stages of the process.
+ For image data, common parameters include image number, height, width, number of lines, and pixels. For this project, the following values were chosen:
+  - Number of images = 100
+  - Image width and height = 100
+  - 3 channels, pixel level [0-255]
+Ensuring uniform aspect ratio is essential, as most neural network models assume square input images. Images are cropped appropriately to maintain this requirement.
+### Training using ML Algorithm
+After preprocessing, the data is used for training. BERT, a machine learning framework for natural language processing (NLP), is employed to identify legal documents. BERT uses surrounding text to deduce meaning from ambiguous words, and the pre-trained base can be fine-tuned using question and answer data.
+ BERT’s unique bidirectional capability allows it to read text from both left-to-right and right-to-left simultaneously, provided by the Transformer’s architecture. The training process involves:
+  - Masked language modeling (MLM) - Training the program to predict masked words in a phrase based on context.
+  - Next learing prediction - Predicting whether two sentences are connected, interconnected, or randomly related.
+ While BERT relics on untagged text corpara (e.g., Brown Corpus and English Wikipedia), it continues to improve when used in real-world applications through transfer learning.
+### Validation and Evaluation
+Following ML algorithm training, the dataset undergoes validation and evaluation. Validation involves verifying the learning model’s predictions, while evaluation assesses the entire ML model’s performance in various situations. This includes evaluating both the training process and the accuracy of predictions across different scenarios.
+### Prediction of Legal Case Type
+The primary objective of this research project is to identify the optimal predictive model and machine learning methods for determining new legal document types. Once machine learning algorithms are applied, legitimate data types can be easily identified when all answers are provided to the prediction process. The system helps lawyers effectively predict legal action types using chatbot applications and machine learning algorithms.
+## Conclusion
+The conclusion drawn from the referenced papers collectively underscores the need for further research and development to address identified challenges in various domains. These challenges include limitations in validation scope, system optimization complexities, the difficulty of teaching subsymbolic systems complex rule-based tasks, and hurdles in preserving data integrity, particularly in legal contexts.
+ Additionally, practical limitations in existing approaches for multimedia distribution and the computational challenges of synthesizing maximally permissive supervisors emphasize the necessity for interdisciplinary approaches and scalable, generalizable solutions. Therefore, future research efforts should prioritize the development of robust and scalable solutions that effectively address the complexities inherent in these domains.
+ Interdisciplinary collaboration, incorporating insights from machine learning, system architecture, legal frameworks, cryptography, and other relevant fields, is crucial for advancing research and overcoming these challenges. By doing so, researchers 
+can contribute to the creation of more efficient, reliable, and secure systems across various domains, ultimately driving innovation and progress in the respective fields.
