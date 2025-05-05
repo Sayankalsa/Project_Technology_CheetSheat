@@ -36,8 +36,10 @@ AI chatbot applications and machine learning algorithms to help predict legaldoc
   - Validation was limited to the music recommendation domain, requiring additional validation in other domains including legal applications.
 - ### Proposed System
   The proposed system offers effective solutions for more efficient estimation of legal information through a smart chatbot application designed to assist new lawyers with various legal issues. Data collected from different sources undergoes processing using established methods. Machine learning algorithms, particularly BERT, are utilized to train the dataset.
-The chatbot application can identify legal documents when provided with all the answers required for the estimation process. This project will help predict the type of law relevant to specific cases, enhancing the efficiency of legal practice for new lawyers through chatbot applications and machine learning algorithms.
+  The chatbot application can identify legal documents when provided with all the answers required for the estimation process. This project will help predict the type of law relevant to specific cases, enhancing the efficiency of legal practice for new lawyers through chatbot applications and machine learning algorithms.
 - ### Advantages of Proposed System
   1. Provides effective solutions on legal documents for incoming lawyers.
   2. Utilizes chatbot applications and machine learning algorithms for easy prediction.
   3. User-friendly interface designed specifically for new lawyers.
+## System Architecture
+The system architecture consists of several interconnected components designed to facilitate efficient processing and analysis of legal documents. The architecture incorporates data collection, preprocessing, machine learning model training, and user interface components to provide a comprehensive solution for legal document analysis.
