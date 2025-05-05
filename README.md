@@ -32,8 +32,8 @@ AI chatbot applications and machine learning algorithms to help predict legaldoc
  Previous work implemented three prototype systems, each proposing different critique methods: user-initiated, progressive system-suggested, and cascade system-suggested. User studies involving 292 participants evaluated these prototypes through two task-oriented tests: the basic recommendation task (BRT) and the exploration-oriented task (EOT).
  Results indicated that BRT increases user satisfaction while EOT encourages greater user engagement. The types of criticizing approaches used during EOT likely affect user perception and alter associations between interaction metrics and perceived serendipity. These findings suggest useful methods for providing feedback to enhance user-chatbot interaction in recommendation scenarios.
 - ### Disadvantages of Existing System
-  - Users’ personalized recommendations heavily depend on specific tastes, potentially resulting in a more constrained exploration environment.
-  - Validation was limited to the music recommendation domain, requiring additional validation in other domains including legal applications.
+  1. Users’ personalized recommendations heavily depend on specific tastes, potentially resulting in a more constrained exploration environment.
+  2. Validation was limited to the music recommendation domain, requiring additional validation in other domains including legal applications.
 - ### Proposed System
   The proposed system offers effective solutions for more efficient estimation of legal information through a smart chatbot application designed to assist new lawyers with various legal issues. Data collected from different sources undergoes processing using established methods. Machine learning algorithms, particularly BERT, are utilized to train the dataset.
   The chatbot application can identify legal documents when provided with all the answers required for the estimation process. This project will help predict the type of law relevant to specific cases, enhancing the efficiency of legal practice for new lawyers through chatbot applications and machine learning algorithms.
