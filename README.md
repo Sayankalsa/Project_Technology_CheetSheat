@@ -14,5 +14,5 @@ proposed solution in addressing the challenges faced by new legal prac-titioners
 ### Introduction
 The legal profession involves dealing with complex documents and information that can be overwhelming for new practitioners. With the advancement of artificial intelligence and natural language processing technologies, there is a significant opportunity to develop intelligent systems that can assist lawyers in navigating legal documents efficiently. This paper presents a comprehensive analysis of existing systems and proposes a novel approach using
 AI chatbot applications and machine learning algorithms to help predict legaldocument types and provide relevant information to new lawyers.
- (2.1) Critiquing-based Recommendation Chatbots
+ -(2.1) Critiquing-based Recommendation Chatbots
    The research on critiquing-based recommendation chatbots highlights limitations in validation scope, as it only addresses the music recommendation domain. While the results demonstrate efficient criticizing processes, the absence of verification in broader recommendation scenarios may impede the application of the proposed methods in legal domains.
