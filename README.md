@@ -50,6 +50,7 @@ The project involves developing an Artificial Intelligence Chatbot application f
    3. Preprocessing the dataset using prefix tools
    4. Training the model using advanced ML algorithms (BERT)
    5. Using the trained model to evaluate and predict legal document types.
+      
  BERT (Bidirectional Encoder Representation of Transformers) is a deep learning model where each result is placed between every input point and connected to every other input point. Weights are calculated based on possible measurements from connections. After training with the machine learning algorithm, the system can effectively evaluate datasets and determine the correct data type when all answers are provided to the prediction process.
 ## Module Description
 ### Dataset Collection
